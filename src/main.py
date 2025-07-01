@@ -29,5 +29,5 @@ app.include_router(test_route.router)
 @app.get('/')
 def health():
     return {
-        "message": "OK 🚀"
+        "message": "OK"
     }
