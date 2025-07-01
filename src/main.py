@@ -4,7 +4,7 @@ from src.api import test_route
 
 import debugpy
 
-debugpy.listen(("0.0.0.0", 5678))
+debugpy.listen(("0.0.0.0", 8080))
 # debugpy.wait_for_client()
 
 app = FastAPI()
