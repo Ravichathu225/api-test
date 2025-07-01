@@ -7,5 +7,8 @@ class ResponseBody(BaseModel):
     message: str
 
 @router.get("/hello-world")
-def prompt() -> ResponseBody:
-    return ResponseBody(message="Hello, world!")
+def hello_world() -> ResponseBody:
+    """
+    A simple endpoint that returns a greeting message.
+    """
+    return ResponseBody(message="Hello, World! This is a smoke test endpoint.")
