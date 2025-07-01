@@ -11,4 +11,4 @@ def hello_world() -> ResponseBody:
     """
     A simple endpoint that returns a greeting message.
     """
-    return ResponseBody(message="Hello, World! This is a smoke test endpoint.😒✔")
+    return ResponseBody(message="Hello, World! This is a smoke test endpoint.😒")
